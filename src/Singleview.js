@@ -44,7 +44,7 @@ class Singleview extends Component {
                 <ul>
                     <li className="fullname">
                         <p><MaterialIcon icon="account_circle" /><span className=
-                        "content">{this.state.fname + this.state.lname}</span></p>
+                        "content name">{this.state.fname + ' ' + this.state.lname}</span></p>
                     </li>
                     <li className="email">
                         <p><MaterialIcon icon="email" /><span className=
@@ -56,7 +56,7 @@ class Singleview extends Component {
                     </li>
                     <li className="place">
                         <p><MaterialIcon icon="location_on" /><span className=
-                        "content">{this.state.city + ', ' + this.state.state}</span></p>
+                        "content name">{this.state.city + ', ' + this.state.state}</span></p>
                     </li>
                 </ul>
             </div>

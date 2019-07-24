@@ -29,6 +29,7 @@ ul {
 li p{
     padding-left: 10px;
     font-family: sans-serif;
+    
 }
 #backbutton {
     position: relative;
@@ -42,6 +43,9 @@ li p{
     position: relative;
     left: 10px;
     bottom: 7px;
+}
+span.name {
+    text-transform: capitalize;
 }
 
 
